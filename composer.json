@@ -1,0 +1,17 @@
+{
+    "name": "william/teste_doctrine",
+    "authors": [
+        {
+            "name": "William Silva",
+            "email": "williamsilva808@hotmail.com"
+        }
+    ],
+    "require": {
+    	 "doctrine/orm": "*"
+    },
+    "autoload": {
+        "psr-4":{
+            "App\\": "App/"
+        }
+    }
+}
